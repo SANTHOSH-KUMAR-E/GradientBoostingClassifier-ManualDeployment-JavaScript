@@ -7583,7 +7583,7 @@
     ];
 
 // list of 10 records in Features (independant variables), in same order as in X_train
-// For Testing the predict function
+// For testing the predict function
 
  var test10 = [[ 0.5       ,  0.66666667,  0.83333333,  0.02996094, -0.57481045,
         -1.2066184 , -1.36890421, -1.13416176, -2.26101846, -1.1473657 ,
