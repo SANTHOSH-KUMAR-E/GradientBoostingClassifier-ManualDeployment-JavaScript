@@ -37,7 +37,7 @@ function Predict(ValueArray) {
     ValueArray[x] = ((ValueArray[x] * 1) - ScaleArray[0][x]) / (ScaleArray[1][x]);
   }
 
-  // Prediction using Gradient Boosting
+  // Prediction using Gradient Boosting - Binomial Classification
   var Pred_Class = GB_Single_Row_Predict(ValueArray);
 
   if (Pred_Class == 0) {
@@ -48,7 +48,7 @@ function Predict(ValueArray) {
 }
 
 
-// Predict Function for Gradient Boosting Classifier
+// Predict Function for Gradient Boosting Classifier - Binomial Classification
 function GB_Single_Row_Predict(x) {
   
     var pred_value = - 0.01343986;  // Initial Prediction (log odds probability)
